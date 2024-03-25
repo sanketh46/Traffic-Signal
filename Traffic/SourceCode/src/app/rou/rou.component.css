@@ -1,0 +1,27 @@
+.signal{
+  border: solid 2px black;
+  height: 410px;
+  padding-left: 70px;
+  background-color: rgb(63, 62, 62);
+  border-radius: 3%;
+}
+p{
+  border: solid 2px;
+  margin-top: 6px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.message{
+  border: solid 5px rgb(156, 153, 153);
+  margin-top: 130px;
+  text-align: center;
+  background-color: rgb(179, 176, 176);
+  height: 100px;
+  padding-top: 25px;
+}
+
+.r{
+ background-color: aqua;
+ text-align: center;
+}

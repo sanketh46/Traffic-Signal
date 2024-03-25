@@ -1,0 +1,30 @@
+<br>
+<h2 class="r">TRAFFIC SIGNAL</h2><br>
+<h2 (click)="demo()"><button>Click Here</button> </h2>
+<div class="container-fluid " >
+    <div class="row">
+        <div class="col-6">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4 signal">
+                    <p class="red" [style.background]="r"></p>
+                    <br>
+                    <p class="yellow" [style.background]="y" ></p>
+                    <br>
+                    <p class="green" [style.background]="g"></p>
+                    <br>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6 message">
+                    <h2>{{msg}}</h2>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
